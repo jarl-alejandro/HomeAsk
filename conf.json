@@ -9,13 +9,8 @@
 		"host":"localhost",
 		"port":6379
 	},
-	"twitter":{
-		"key": "",
-		"secret": ""
-	},
-	
 	"facebook":{
-		"key": "1580685122172571",
-		"secret": "63b97e2abc24873cfb5b68385f99c3ab"
+		"key": "KEY",
+		"secret": "SECRET"
 	}
 }

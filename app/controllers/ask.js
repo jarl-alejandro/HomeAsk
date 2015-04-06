@@ -15,16 +15,3 @@ exports.app = function(req, res){
 	})
 
 }
-
-
-exports.api = function(req, res){
-	Ask.find({})
-	.populate('user')
-	.exec(function(err, asks){
-		if(err)
-			console.log("Hay un error en db " + err)
-		else{
-			res.json(asks)
-		}
-	})
-}
