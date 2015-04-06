@@ -1,0 +1,38 @@
+html,body{
+	background: #F3F3F3;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+figure{
+	margin:0;
+}
+header{
+	margin: 0 2em 2em 2em;
+}
+.b-white{
+	background: white;
+}
+.b-azul{
+	background: #37A3DA;
+}
+.ask{
+	box-shadow: 5px 2px 15px rgba(0,0,0,0.5);
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 0 0 10px 10px;
+}
+.comment{
+}
+.form{
+	margin-bottom: 2em;
+	margin-left: 2em;
+}
+.name{
+	font-style: italic;
+	font-weight: bold;
+}
+
